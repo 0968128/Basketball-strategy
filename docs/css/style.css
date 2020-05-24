@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px; padding: 0px;
+    overflow: hidden;
+}
+
+ball-component {
+    background-image: url("../images/ball.png");
+    width: 100px; height: 100px;
+    position: absolute;
+}
+
+.basketball {
+    background-image: url("../images/basketball.png");
+}
+
+.earth {
+    background-image: url("../images/earth.jpg");
+    display: block;
+}
+.moon {
+    background-image: url("../images/moon.jpg");
+}
+
+
+.row {
+    display: flex;
+    height: 100vh;
+}
+
+.column {
+    flex: 50%;
+}
